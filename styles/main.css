@@ -1,0 +1,103 @@
+body {width: 1920px; margin: 0 auto;}
+main {
+    padding: 10px 0;
+    line-height: 1.2;
+    background: #fff;
+    margin: 120px 210px; 
+} 
+header {border-bottom: 1px solid #000; } 
+.top_header {
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top_header img {width: 150px; }
+.top_header .rightmenu img {width: 30px; width: 30px;}
+.buttom_header {padding: 0 210px;}
+.buttom_header a {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.buttom_header a.menu_active {color: #0900FF; border-top: 2px solid #0900ff;}
+.buttom_header a:hover {color: #0900ff;}
+main .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+main .title h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+main .title a {
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+main .title a:hover {
+    border: none;
+    color: #fff;
+    background: #4363FF;
+}
+main .date {
+    font-size: 0.875rem;
+}
+main .cardnews .news_title {margin-bottom: 30px;}
+main .cardnews .news_title h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+main .cardnews .news_title span {
+    font-weight: 600;
+}
+main .cardnews p {margin-bottom: 10px;}
+main .cardnews .news_imgtxt {
+    display: flex;
+    gap: 10px;
+}
+/* 개별값 */
+main .cardnews .news01 {padding: 40px 0;}
+main .cardnews .news01 .news_imgtxt {align-items: center;}
+main .cardnews .news01 .news_imgtxt img {height: 235px; }
+main .cardnews .news01 .news_imgtxt p {text-align: center; width: 384px;}
+
+main .cardnews .news02 {padding: 40px 0;}
+main .cardnews .news02 .news_imgtxt {align-items: center;}
+main .cardnews .news02 .news_imgtxt img {height: 300px; }
+main .cardnews .news02 .news_imgtxt p {text-align: left; width: 312px;}
+
+main .cardnews .news03 {padding: 40px 0;}
+main .cardnews .news03 .news_imgtxt img {height: 300px; }
+
+main .summary {
+    padding: 30px 0; 
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    align-items: center;
+
+}
+main .summary h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+main .summary p {
+    text-align: center;
+    font-weight: 600;
+}
+footer {
+    background: #000;
+    
+} 
+footer p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+    align-items: center;
+    padding: 45px;
+}
